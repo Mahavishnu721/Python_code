@@ -80,6 +80,55 @@ def Q13():
     a=10.10
     a='st'
     print(type(a))
+def Q14():
+    PI=3.14
+    r=3
+    print(2*PI*r)
+def Q15():
+    name="vishnu"
+    age=26
+    num=10
+    print("name : {} age : {} num : {}".format(name,age,num))
 
+def Q16():
+    a=5
+    b=3
+    print(f" a//b = {a//b} a%b = {a%b}")
+def Q17():
+    a=10
+    b=20
+    a+=b
+    print(a)
+def Q18():
+    a="python's \"syntax\" is easy "
+    print(a)
+def Q19():
+    a = True
+    b = False
+    print("True + True =", True + True)
+    print("True + False =", True + False)
+    print("False + False =", False + False)
+    print("True * True =", True * True)
+    print("True * False =", True * False)
+    print("False * False =", False * False)
+
+def Q21():
+    a=2341837493873
+    print(a,type(a))
+def Q22():
+    a=b=c=100
+    print(a, b,c)
+def Q23():
+    a=None
+    print(a,type(a))
+
+def Q24():
+    a=10
+    b=3.5
+    r=a+b
+    print(r,type(r))
+def Q25():
+    a="PythonProgramming"
+    print(a.split('Programming'))
 if __name__=="__main__":
-    Q13()
+    Q25()
